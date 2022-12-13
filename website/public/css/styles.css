@@ -1,0 +1,121 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-family: "Bellefair", serif;
+}
+
+p {
+    color: #ffffff;
+    font-family: "Barlow", sans-serif;
+}
+
+body {
+    background-image: url("../images/home/background-home-desktop.jpg");
+    background-position: right;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+}
+
+.navbar-brand {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    height: 3rem;
+    margin: auto 0 auto 5%;
+    width: 3rem;
+}
+
+.navbar-logo {
+    background-color: #000000;
+    height: 1.5rem;
+    margin: 0.4625rem auto auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    width: 1.5rem;
+}
+
+.navbar-nav {
+    backdrop-filter: blur(30px) brightness(125%);
+    -webkit-backdrop-filter: blur(30px) brightness(125%);
+    margin: 0;
+    padding: 1.5% 10% 1.5% 5%;
+    width: 60%;
+}
+
+.nav-item {
+    letter-spacing: .1rem;
+    margin: auto;
+}
+
+.nav-item a {
+    color: #ffffff;
+}
+
+#home-page {
+    margin: 20% 10% 8%;
+}
+
+#headline-col {
+    margin-right: 8%;
+    width: 32%;
+}
+
+#subtitle {
+    color: #D0D6F9;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 200;
+    letter-spacing: 0.30rem;
+}
+
+#title {
+    font-size: 9.375rem;
+    margin-top: 2rem;
+}
+
+#description {
+    color: #D0D6F9;
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 2;
+}
+
+#explore-col {
+    position: relative;
+}
+
+#explore-btn {
+    background-color: #ffffff;
+    border-radius: 8.5rem;
+    -webkit-border-radius: 8.5rem;
+    -moz-border-radius: 8.5rem;
+    -ms-border-radius: 8.5rem;
+    -o-border-radius: 8.5rem;
+    font-family: "Bellefair", sans-serif;
+    font-size: 2rem;
+    font-weight: thin;
+    position: relative;
+    top: 30%;
+    left: 40%;
+    height: 17rem;
+    width: 17rem;
+}
